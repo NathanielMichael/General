@@ -1,0 +1,5 @@
+name: General
+authors:
+  - Plutonium239
+main: net.craftstars.general.General
+version: 4.0.0
