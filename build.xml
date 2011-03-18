@@ -112,6 +112,7 @@ along with General.  If not, see <http://www.gnu.org/licenses/>.
     <ivy:cleancache />
     <delete dir="${dist.dir}" />
     <delete dir="${build.dir}" />
+    <delete dir="${doc.dir}" />
   </target>
   
 </project>
