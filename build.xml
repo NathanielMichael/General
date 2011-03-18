@@ -51,6 +51,7 @@ along with General.  If not, see <http://www.gnu.org/licenses/>.
   <property name="resources.dir" value="resources" />
   <property name="build.dir" value="build" />
   <property name="dist.dir" value="dist" />
+  <property name="doc.dir" value="doc" />
   <property name="jar.file" value="${ant.project.name}.jar" />
   
   <!-- =================================
@@ -88,6 +89,20 @@ along with General.  If not, see <http://www.gnu.org/licenses/>.
       <fileset dir="${build.dir}/" />
       <fileset dir="${resources.dir}/" />
     </jar>
+  </target>
+  
+  <!-- =================================
+        target: javadoc
+       ================================= -->
+  <target name="javadoc" description="--> generate javadoc from source">
+    <mkdir dir="${doc.dir}" />
+    <javadoc sourcepath="${src.dir}" destdir="${doc.dir}" access="public" use="true" author="true" splitindex="true" windowtitle="Craftstars General Plug-in JavaDoc">
+      <packageset dir="${src.dir}" />
+      <classpath>
+        <fileset dir="${lib.dir}" includes="*.jar" />
+      </classpath>
+      <group title="General Plug-in" packages="net.craftstars.general*" />
+    </javadoc>
   </target>
   
   <!-- =================================

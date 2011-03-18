@@ -21,8 +21,18 @@
 /dist
 /manifest.mf
 /lib
-
-/world
+/log
+/doc
 
 # Mac filesystem dust
 /.DS_Store
+
+# Other stuff we don't want
+/world
+banned-ips.txt
+banned-players.txt
+ops.txt
+server.log
+server.log.lck
+server.properties
+white-list.txt

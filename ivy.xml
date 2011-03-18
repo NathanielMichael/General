@@ -19,6 +19,7 @@ along with General.  If not, see <http://www.gnu.org/licenses/>.
   <dependencies>
     <dependency org="org.mockito" name="mockito-all" rev="1.8.5" />
     <dependency org="junit" name="junit" rev="4.8.2" />
+    <dependency org="org.bukkit" name="bukkit" rev="0.0.1-SNAPSHOT" />
     <dependency org="org.bukkit" name="craftbukkit" rev="0.0.1-SNAPSHOT" />
   </dependencies>
 </ivy-module>

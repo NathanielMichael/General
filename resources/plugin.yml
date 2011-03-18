@@ -1,5 +1,19 @@
 name: General
 authors:
+  - CelticMinstrel
   - Plutonium239
+website: http://craftstars.net
 main: net.craftstars.general.General
 version: 4.0.0
+description: >
+             Some great stuff for CraftBukkit!
+commands:
+  general.test:
+    description: "This command will always fail. Testing purposes."
+    aliases:
+      - one
+      - two
+      - version
+    usage: |
+           /<command>
+           Example: /<command>
