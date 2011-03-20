@@ -34,28 +34,4 @@ Current authors and maintainers of this project.
 
 Build Instructions
 -------------------------
-Requirements:
- * [Apache Ant](http://ant.apache.org)
- * [Ivy](http://ant.apache.org/ivy) (Optional; as our build now grabs this automatically)
-
-### Step 1: Get the source ###
-If you're reading this chances are you already have a copy of the source files, if so you can skip to step 2, otherwise you can find it at [GitHub](https://github.com/craftstars/General). You can either download a tar or zip file of the source or checkout using Git. If you plan on contributing back to the project you should create an account on GitHub and fork the repository so that you can make changes. All this is explained in great detail here: [Forking a repo](http://help.github.com/fork-a-repo/). If you just want to build the plugin or don't plan on contributing your changes back (sad) then this will work fine for you:
- 
-    git clone git://github.com/craftstars/General.git
-
-### Step 2: Installing Ant ###
-
-If you already have Ant installed, skip to step 3. Follow the instructions below to install Ant for your platform.
-
-Installing Apache Ant: http://ant.apache.org/manual/install.html
-Installing Ant on Windows: [Install Ant on Windows](http://omrudi.wordpress.com/2008/11/08/how-to-install-ant-in-windows-xp/)
-
-### Step 3: Build! ###
-
-Once you have the source and Ant installed, cd in to the directory you have the source checked out in to and run:
-
-    ant jar
-
-This will create the *dist* directory and the *General.jar* file. That's it! Done!
-
-If you make changes to the source just run 'ant jar' again and the jar file will be updated with your changes.
+Coming Soon!

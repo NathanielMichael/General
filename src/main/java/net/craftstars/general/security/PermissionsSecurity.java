@@ -4,15 +4,14 @@ import org.bukkit.command.Command;
 import org.bukkit.entity.Player;
 
 /**
- * BasicSecurity is the fall back security class if no others are found.
+ * Security handler for use with Permissions plugin.
  * 
  * @author Plutonium239
  */
-public class BasicSecurity implements SecurityImpl
+public class PermissionsSecurity implements SecurityImpl
 {
-    @Override
     public Boolean hasAccess(Player player, Command command)
     {
-        return player.isOp();
-    }   
+        return false;
+    }
 }

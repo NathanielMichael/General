@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.craftstars.general</groupId>
+  <artifactId>General</artifactId>
+  <version>4.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>General</name>
+  <description>General plug-in for CraftBukkit</description>
+  <url>http://craftstars.net</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <issueManagement>
+    <system>Redmine</system>
+    <url>http://redmine.craftstars.net/projects/general</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>http://ci.craftstars.net/job/General/</url>
+  </ciManagement>
+  <scm>
+    <connection>scm:git:git://github.com/craftstars/General.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:craftstars/General.git</developerConnection>
+    <url>https://github.com/craftstars/General</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>manual</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>plutonium239</id>
+      <name>Nate Michael</name>
+      <url>http://nate.aero</url>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+  </developers>
+  <organization>
+    <name>Craftstars</name>
+    <url>http://craftstars.net</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.bukkit</groupId>
+      <artifactId>craftbukkit</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

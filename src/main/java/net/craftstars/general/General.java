@@ -54,7 +54,6 @@ public final class General extends JavaPlugin
         Log.initialize(this.getServer().getLogger(), this.getDescription().getName(), DEBUG_MODE);
     }
     
-    @Override
     public void onEnable()
     {   
         // Register our events
@@ -69,7 +68,6 @@ public final class General extends JavaPlugin
         Log.info("Plugin Enabled!");
     }
     
-    @Override
     public void onDisable()
     {
         Log.info("Plugin Disabled!");
