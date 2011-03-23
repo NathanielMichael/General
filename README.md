@@ -15,22 +15,23 @@ Credit Where Credit is Due
 
 This project couldn't have happened without the amazing and talented people we have the privilege of working with every day.
 
-**First and Foremost**: [Mojang](http://mojang.com/)
+**First and Foremost**: [Mojang](http://mojang.com/),
 Creators of Minecraft. None of us would be here without them.
 
 [Bukkit Team](http://bukkit.org):
 The Bukkit team has done something very amazing, saw potential and purpose and created something wonderful.
 
-**Ninjikokun**:
+**Nijikokun**:
 Original author of General, you are a wizard my friend.
 
-**Craftstars**:
-Current authors and maintainers of this project.
- * CelticMinstrel
- * Plutonium239 (Nate Michael) (http://nate.aero)
+**Craftstars**: Current authors and maintainers of this project.
+
+* Celtic Minstrel
+* Plutonium239 (Nate Michael) (http://nate.aero)
 
 **Others**:
- * ?
+
+* ?
 
 Build Instructions
 -------------------------
